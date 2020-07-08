@@ -1,0 +1,18 @@
+72. Setting Up Our New Project
+
+bg-dark                 : background-color(primary,secondary,success,danger,warning,info,light,dark,white -> https://getbootstrap.com/docs/4.0/utilities/colors/)
+collapse                : hides content  (https://getbootstrap.com/docs/4.0/components/collapse/)
+ml-auto                 : Auto margins  (https://getbootstrap.com/docs/4.0/utilities/flex/)
+navbar                  : navigation bar (https://getbootstrap.com/docs/4.0/components/navbar/)
+navbar-collapse         : grouping and hiding navbar contents by a parent breakpoint. (navbar link)
+navbar-brand            : for your company, product, or project name. (navbar link)
+navbar-dark             : dark background colors
+navbar-expand
+navbar-nav              : for a full-height and lightweight navigation (including support for dropdowns).
+navbar-toggler          : for use with our collapse plugin and other navigation toggling behaviors.
+navbar-toggler-icon
+nav-item                : https://getbootstrap.com/docs/4.0/components/navs/
+nav-link                : https://getbootstrap.com/docs/4.0/components/navs/
+
+
+asa ceva nu se face
