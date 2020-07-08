@@ -15,4 +15,3 @@ nav-item                : https://getbootstrap.com/docs/4.0/components/navs/
 nav-link                : https://getbootstrap.com/docs/4.0/components/navs/
 
 
-asa ceva nu se face
