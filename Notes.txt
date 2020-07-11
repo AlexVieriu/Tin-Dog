@@ -78,3 +78,25 @@ h1{
 -> CSS styles are applied in the order they are linked in your HTML code.
 -> move the font link after the bootstrap link, so the font link will override the boostrap link
 
+77. Boostrap Containers
+https://getbootstrap.com/docs/4.4/layout/overview/
+
+-> are the most basic layout element in Bootstrap and are required when using our default grid system
+
+@media : media queries (https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries)
+
+.container
+.container-sm
+.container-md
+.container-lg
+.container-xl
+.container-fluid : takes 100% of the wieght
+
+78. BootStrap Buttons & Font
+
+https://getbootstrap.com/docs/4.0/components/buttons/
+
+color : primary(blue)   , secondary(grey), success(green)
+        danger(red)     , warning(yellow), info(skyblue)
+        light(white)    , dark(black)    , link(white)
+        
