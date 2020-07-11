@@ -1,3 +1,35 @@
+66. What is Bootstrap?
+
+-> https://getbootstrap.com/docs/4.0/getting-started/download/
+
+.jumbotron      
+
+examples :  https://getbootstrap.com/docs/4.0/examples/
+
+
+67. Installing BootStrap
+https://www.submarinecablemap.com/
+https://www.stackpath.com/maxcdn/       : servers where the Boostrap is hosted
+
+CDN : Content Delivery Network
+
+-> comment the bootstrap <link> to see the difference between default font text
+
+
+68. Web Design - Wireframing
+
+https://www.awwwards.com/       : other people design
+https://ui-patterns.com/
+https://dribbble.com/
+https://balsamiq.cloud/spaces
+
+
+69. The Bootstrap NavBar
+
+NavBar      : https://getbootstrap.com/docs/4.0/components/navbar/
+
+
+
 72. Setting Up Our New Project
 
 bg-dark                 : background-color(primary,secondary,success,danger,warning,info,light,dark,white -> https://getbootstrap.com/docs/4.0/utilities/colors/)
