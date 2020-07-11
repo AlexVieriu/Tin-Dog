@@ -55,3 +55,26 @@ nav-link                : https://getbootstrap.com/docs/4.0/components/navs/
 73. Boostrap Grid Layout System
 
 https://getbootstrap.com/docs/4.0/layout/grid/
+
+75. Adding Grid Layout to Our Website
+
+class= "col-lg-6" : h1 and button
+class= "col-lg-6" : img
+
+-> add the google font link: Montserrat-Black, Ubuntu
+
+h1{
+    font-family: "Montserrat";
+    size: 3rem;
+    line-height: 1.5;
+}
+
+#title{
+    background-color: #ff4c68;
+}
+
+76. A Note About Css Link Order
+
+-> CSS styles are applied in the order they are linked in your HTML code.
+-> move the font link after the bootstrap link, so the font link will override the boostrap link
+
