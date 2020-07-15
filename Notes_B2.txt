@@ -54,3 +54,15 @@ data-wrap       = true/false
 data-slide = "prev"
 data-slide = "next"
 data-target = "#carousel_id"
+
+86. Bootstrap Cards
+
+https://getbootstrap.com/docs/4.0/examples/pricing/
+
+copy : <div> card-deck mb-3 text-center
+
+
+Place to copy blocks of code: 
+https://bootsnipp.com/
+
+Cards Documentation:  https://getbootstrap.com/docs/4.0/components/card/
