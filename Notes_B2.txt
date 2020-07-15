@@ -30,3 +30,27 @@ alt + click : multiple rows
 85. The Bootstrap Carousel Part 2
 
 https://getbootstrap.com/docs/4.0/components/carousel/
+
+Carousel:
+-> slides only
+-> with controls
+-> witn indicators
+-> with captiions
+
+Bootstrap classes:
+class = "carousel slide"
+class = " carousel-indicators"
+class = " carousel-inner"
+class = " carousel-item active"
+class = "carousel-control-prev"
+class = "
+
+data-inverval   = 1000 (The time between changing slides)
+data-keyboard   = true (Whether the carousel should react to keyboard events.)
+data-pause      = "hover" / false
+data-ride       = "carousel" / false
+data-wrap       = true/false
+
+data-slide = "prev"
+data-slide = "next"
+data-target = "#carousel_id"

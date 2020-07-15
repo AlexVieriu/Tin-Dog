@@ -14,27 +14,34 @@
   </head>
 
   <body>
-    <div
-      id="testimonial-carousel"
-      class="carousel slide"
-      data-ride="false"
-    >
+
+    <div id="carousel-example" class="carousel" data-interval = 1000 data-ride = "carousel" data-pause="hover">
+
+      <ol class="carousel-indicators">
+        <li data-target="#carousel-example" data-splide-to="0" class = "active"></li>
+        <li data-target="#carousel-example" data-splide-to="1"></li>
+        <li data-target="#carousel-example" data-splide-to="2"></li>
+      </ol>
+
       <div class="carousel-inner">
         <div class="carousel-item active" style="background-color: red;">
-          <h1>Hello World!</h1>
+          <h1>First Slide</h1>
         </div>
-        <div class="carousel-item" style="background-color: yellow;">
-          
+        <div class="carousel-item" style ="background-color: yellow;">
+          <h1>Secound Slide</h1>
         </div>
-        <div class="carousel-item" style="background-color: green;">
-          
+        <div class="carousel-item" style = "background-color: blue;">
+          <h1>Third Slide</h1>
         </div>
       </div>
-      <a class="carousel-control-prev" href="#testimonial-carousel" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon"></span>
+
+      <a class="carousel-control-prev" href="#carousel-example" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
       </a>
-      <a class="carousel-control-next" href="#testimonial-carousel" role="button" data-slide="next">
-        <span class="carousel-control-next-icon"></span>
+      <a class="carousel-control-next" href="#carousel-example" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
       </a>
 
     </div>
