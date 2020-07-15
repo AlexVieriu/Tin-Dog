@@ -128,6 +128,3 @@ google : https://fontawesome.com/icons/google-play?style=brands
     color: #ff4c68
 }
 
-84. The Bootstrap Carousel Part I
-
-alt + click : multiple rows 
