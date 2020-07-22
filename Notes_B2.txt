@@ -77,3 +77,25 @@ class: btn btn-outline-dark btn-lg btn-block
 
 87. The CSS Z-Index and Staking Order 
 
+-> to use z-index you need to use Position 
+
+position: absolute, relative, fixed
+z-index: ..., -2, -1, 0(default), 1, 2, ....     
+
+https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Positioning/Understanding_z_index/Adding_z-index
+https://www.appbrewery.co/p/web-development-course-resources
+
+88. Media Query Breakpoint 
+
+developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries
+
+@media (max-width: 1028px) {
+    .title-image{
+        position: static;
+        transform: rotate(0);
+    }
+
+    #title{
+        text-align: center;
+    }
+}

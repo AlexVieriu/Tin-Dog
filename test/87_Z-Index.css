@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+}
+
+div{
+    width: 100px;
+    height: 100px;    
+}
+
+.red{
+    background-color: red;
+    z-index: -1;
+    position: absolute;
+    left: 40px;
+    top: 40px;
+}
+
+.yellow{
+    background-color: yellow;
+    z-index: 0;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+
+.blue{
+    background-color: blue;
+    z-index: 1;
+    position: absolute;
+}

@@ -2,10 +2,6 @@ body{
     font-family: "Montserrat";
 }
 
-img.rotate{
-    transform: rotate(20deg);
-    padding-top: 20px;
-}
 
 h1{
     font-family: "Montserrat";
@@ -33,10 +29,11 @@ p{
 #title{
     background-color: #ff4c68;
     color: white;
+    z-index: -1;
 }
 
 .container-fluid{
-    padding: 3% 15%; 
+    padding: 3% 15% 7%; 
 }
 
 /* Navigation Bar */
@@ -69,6 +66,10 @@ p{
 
 .title-image{
     width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
+
 }
 
 .position{
@@ -79,6 +80,8 @@ p{
 
 #features {
     padding: 7% 15%;
+    background-color: white;
+    position: relative;
 }
 
 .feature-box {
@@ -135,4 +138,15 @@ p{
 
 .pricing-column{
     padding: 3% 2%;
+}
+
+@media (max-width: 1028px) {
+    .title-image{
+        position: static;
+        transform: rotate(0);
+    }
+
+    #title{
+        text-align: center;
+    }
 }
