@@ -1,0 +1,16 @@
+h1{
+    color:red;  
+    /* green will overwrite red */  
+    color: green;  
+    
+}
+
+/* Classes are more specific and will overrite h1 */
+.title{
+    color:yellow;
+}
+
+/* Ids are unic so will overrite all of the obove */
+#heading{
+    color:lightsalmon;
+}

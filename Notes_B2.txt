@@ -127,3 +127,49 @@ h1, h2, h3, h4, h5, h6 {
 #title .container-fluid{
     padding: 3% 15% 7%; 
 }
+
+93. Advanced CSS - Combining Selectors
+
+a. Heirarchical selectors : 
+
+-> inside block (with space)
+.container .title{
+    color: red;
+}
+
+-> in the same line block(without space)
+h2.con{
+    color: yellow;
+}
+
+94. Refactoring Part 2
+
+/* Sections */
+
+.colored-section{
+    background-color: #ff4c68;
+    color: white;
+}
+
+
+.colored-section#testimonials{
+    background-color: #ef8172;
+    color: white;
+
+}
+
+.colored-section#press{
+    background-color: #ef8172;
+    color: white;
+}
+
+.white-section{
+    background-color: white;
+}
+
+95. Selector Priority
+
+-> use id only on sections
+-> use only one class per block (not like in bootstrap)
+
+96. Completing the Website
