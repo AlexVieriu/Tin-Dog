@@ -99,3 +99,31 @@ developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries
         text-align: center;
     }
 }
+
+90. BootStrap Challenge 2 Solution 
+
+got to a specific paragraph : <a class="nav-link" href="#footer">Contact</a>
+
+91. Code Refactoring 
+
+-> Readability
+-> Modularity
+-> Efficiency
+-> Length
+
+92. Refactoring Part 1
+
+#title .container-fluid{
+    padding: 3% 15% 7%; 
+}
+
+93. Combining Selectors
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Montserrat"; 
+    font-weight: 700;
+}
+
+#title .container-fluid{
+    padding: 3% 15% 7%; 
+}
